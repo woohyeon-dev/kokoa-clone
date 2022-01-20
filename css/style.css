@@ -1,14 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
 @import "reset.css";
 @import "variables.css";
 
  /* Components */
 @import "components/status-bar.css";
+@import "components/nav-bar.css";
+@import "components/screen-header.css";
 
  /* Screens */
 @import "screens/login.css";
 
 body {
     font-family: 'Patrick Hand', cursive;
+    margin-top: 30px;
 }
